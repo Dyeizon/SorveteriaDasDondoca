@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+/* Geral */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-header {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.navbar {
+    background-color: pink;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 50px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Delius Swash Caps', cursive;
+    margin: 0;
+}
+
+/* Main */
+
+main {
+    margin-top: auto;
+}
+
+.opcoesIndex .card {
+    background-color: palevioletred;
+}
+
+.opcoesIndex .card:hover {
+    background-color: rgb(255, 124, 146);
+    transition-duration: 200ms;
+}
+
+.opcoesIndex .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: pink;
+    font-size: 1.2em;
+    margin-top: auto;
+}
+
